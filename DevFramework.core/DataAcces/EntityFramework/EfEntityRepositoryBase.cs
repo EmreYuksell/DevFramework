@@ -30,7 +30,6 @@ namespace DevFramework.Core.DataAcces.EntityFramework
                 var deletedEntity = context.Entry(entity);
                 deletedEntity.State= EntityState.Deleted;
                 context.SaveChanges();
-                return entity;
             }
         }
 
