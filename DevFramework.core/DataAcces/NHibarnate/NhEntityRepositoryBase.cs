@@ -5,6 +5,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using NHibernate.Linq;
+using NHibernate.Hql.Ast.ANTLR.Tree;
+
 namespace DevFramework.Core.DataAcces.NHibarnate
 {
     public class NhEntityRepositoryBase<TEntity>:IEntityRepository<TEntity>
@@ -66,5 +68,8 @@ namespace DevFramework.Core.DataAcces.NHibarnate
 
             }
         }
-    }
+    
+   }
+    
 }
+

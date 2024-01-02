@@ -8,4 +8,9 @@
     <PackageReference Include="EntityFramework" Version="6.4.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DevFramework.core\DevFramework.Core.csproj" />
+    <ProjectReference Include="..\DevFramework.Northwind.Entities\DevFramework.Northwind.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
