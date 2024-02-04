@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DevFramework.Core.DataAcces.NHibarnate
+namespace DevFramework.Core.DataAccess.NHibarnate
 {
     public abstract class NHibernateHelper : IDisposable
     {

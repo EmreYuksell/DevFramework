@@ -1,10 +1,10 @@
-﻿using DevFramework.Core.DataAcces;
-using DevFramework.Northwind.Entities.Concrate;
+﻿using DevFramework.Core.DataAccess;
+using DevFramework.Northwind.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DevFramework.Northwind.DataAcces.Abstract
+namespace DevFramework.Northwind.DataAccess.Abstract
 {
     public interface IProductDal:IEntityRepository<Product>
     {

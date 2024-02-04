@@ -7,7 +7,7 @@ using System.Text;
 using NHibernate.Linq;
 using NHibernate.Hql.Ast.ANTLR.Tree;
 
-namespace DevFramework.Core.DataAcces.NHibarnate
+namespace DevFramework.Core.DataAccess.NHibarnate
 {
     public class NhEntityRepositoryBase<TEntity>:IEntityRepository<TEntity>
         where TEntity : class , IEntity, new()

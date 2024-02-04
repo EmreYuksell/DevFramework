@@ -1,10 +1,10 @@
-﻿using DevFramework.Northwind.Entities.Concrate;
+﻿using DevFramework.Northwind.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
 using System.Text;
 
-namespace DevFramework.Northwind.DataAcces.Concrate.EntityFramework.Mappings
+namespace DevFramework.Northwind.DataAccess.Concrete.EntityFramework.Mappings
 {
     public class ProductMap:EntityTypeConfiguration<Product>
     {

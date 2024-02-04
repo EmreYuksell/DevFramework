@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace DevFramework.DataAcces.Tests
+namespace DevFramework.DataAcces.Tests.EntityFrameworkTests
 {
     [TestClass]
     public class UnitTest1

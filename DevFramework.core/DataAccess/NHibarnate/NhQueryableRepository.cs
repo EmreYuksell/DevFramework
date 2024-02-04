@@ -1,11 +1,12 @@
 ﻿using DevFramework.Core.Entities;
+using NHibernate.Mapping;
 using NHibernate.Persister.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DevFramework.Core.DataAcces.NHibarnate
+namespace DevFramework.Core.DataAccess.NHibarnate
 {
     public class NhQueryableRepository<T>:IQueryableRepository<T> where T : class,IEntity,new()
     {
@@ -33,7 +34,7 @@ namespace DevFramework.Core.DataAcces.NHibarnate
                 }
             }
         }
-
+        
         // entities null ise yeni açıyor değil ise entities döndürüyor
         IQueryableRepository<T> IQueryableRepository<T>.Table => throw new NotImplementedException();
     }

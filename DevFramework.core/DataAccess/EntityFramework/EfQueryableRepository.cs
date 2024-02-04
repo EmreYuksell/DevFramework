@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace DevFramework.Core.DataAcces.EntityFramework
+namespace DevFramework.Core.DataAccess.EntityFramework
 {
     public class EfQueryableRepository<T>:IQueryableRepository<T>where T:class, IEntity,new()
     {

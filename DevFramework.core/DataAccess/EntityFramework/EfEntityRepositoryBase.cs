@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using DevFramework.Core.Entities;
 
-namespace DevFramework.Core.DataAcces.EntityFramework
+namespace DevFramework.Core.DataAccess.EntityFramework
 {
     public class EfEntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity>
         where TEntity : class, IEntity, new()

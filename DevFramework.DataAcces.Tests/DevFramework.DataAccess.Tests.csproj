@@ -57,13 +57,46 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityFrameworkTests\EntityFrameworkTest.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="EntityFrameworkTests\UnitTest2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevFramework.Business.Tests\DevFramework.Northwind.Business.Tests.csproj">
+      <Project>{78da6b05-cd6c-4bb6-ade5-2de2621f1fe9}</Project>
+      <Name>DevFramework.Northwind.Business.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.core\DevFramework.Core.csproj">
+      <Project>{c7782954-a38a-4f2a-864c-e30eebb86945}</Project>
+      <Name>DevFramework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Northwind.Business\DevFramework.Northwind.Business.csproj">
+      <Project>{cebafa4e-5e86-40eb-a2f9-33aaf044a64e}</Project>
+      <Name>DevFramework.Northwind.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Northwind.DataAcces\DevFramework.Northwind.DataAccess.csproj">
+      <Project>{15d62e94-cf0d-46ad-a3bf-ab05824a03d7}</Project>
+      <Name>DevFramework.Northwind.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Northwind.Entities\DevFramework.Northwind.Entities.csproj">
+      <Project>{be437222-8da2-4e15-b17f-3c9e683f8f6d}</Project>
+      <Name>DevFramework.Northwind.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Northwind.MvcWebUI.Tests\DevFramework.Northwind.MvcWebUI.Tests.csproj">
+      <Project>{56839cf4-7f38-4293-a32b-947c25ff45fc}</Project>
+      <Name>DevFramework.Northwind.MvcWebUI.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Northwind.MvcWebUI\DevFramework.Northwind.MvcWebUI.csproj">
+      <Project>{c281aa78-c370-423b-81e2-30ee37b33982}</Project>
+      <Name>DevFramework.Northwind.MvcWebUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Northwind.WebApi\DevFramework.Northwind.WebApi.csproj">
+      <Project>{89a98733-9c91-410c-b8dd-12ecc0daa524}</Project>
+      <Name>DevFramework.Northwind.WebApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

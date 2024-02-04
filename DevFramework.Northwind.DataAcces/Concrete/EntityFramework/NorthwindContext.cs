@@ -1,11 +1,11 @@
-﻿using DevFramework.Northwind.DataAcces.Concrate.EntityFramework.Mappings;
-using DevFramework.Northwind.Entities.Concrate;
+﻿using DevFramework.Northwind.DataAccess.Concrete.EntityFramework.Mappings;
+using DevFramework.Northwind.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Text;
 
-namespace DevFramework.Northwind.DataAcces.Concrate.EntityFramework
+namespace DevFramework.Northwind.DataAccess.Concrete.EntityFramework
 {
 
     public class NorthwindContext:DbContext

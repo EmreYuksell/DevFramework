@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Text;
 using DevFramework.Core.Entities;
 
-namespace DevFramework.Core.DataAcces
+namespace DevFramework.Core.DataAccess
 {
     public interface IEntityRepository<T>where T : class, IEntity,new()
     {
